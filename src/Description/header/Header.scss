@@ -1,0 +1,70 @@
+.containerHeader {
+  width: 100%;
+  background-color: green;
+  padding: 2vw;
+
+  .row1 {
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    span {
+      display: inline-block;
+      color: black;
+      font-size: 1.5vw;
+      font-weight: bold;
+      margin-bottom: 1.5vw;
+    }
+
+    h1 {
+      color: white;
+      font-size: 3vw;
+    }
+
+    small {
+      display: inline-block;
+      width: 20vw;
+      height: 2px;
+      background-color: white;
+      margin-bottom: 0.5vw;
+      margin-top: 3vw;
+    }
+
+    p {
+      line-height: 2.3vw;
+      letter-spacing: 0.5px;
+      margin-top: 1vw;
+      font-size: 1.4vw;
+    }
+  }
+
+  .row2 {
+    display: flex;
+    justify-content: space-between;
+
+    .colClass {
+      width: 30vw;
+      font-size: 1.5vw;
+      margin-top: 2.5vw;
+      border: 3px;
+      border-style: none solid none none;
+      border-color: white;
+    }
+    .colClassExit {
+      width: 30vw;
+      font-size: 1.5vw;
+      margin-top: 2.5vw;
+    }
+
+    h3 {
+      color: white;
+      font-size: 4vw;
+      letter-spacing: 2px;
+    }
+
+    h4 {
+      color: black;
+      letter-spacing: 1.5px;
+    }
+  }
+}
